@@ -327,7 +327,7 @@ Latest Jobs, Scholarships, Results, Admit Cards and University Updates in one pl
 function searchSite() {
     let q = document.getElementById("searchInput").value.toLowerCase();
 
-    if (q.includes("job")) {
+    if (q.includes("job") || q.includes("vacancy") || q.includes("bihar police")) {
         window.location.href = "latest-jobs.html";
     }
     else if (q.includes("result")) {
@@ -341,6 +341,9 @@ function searchSite() {
     }
     else {
         alert("No result found");
+    }
+}
+</script>
     }
 }
 </script>
