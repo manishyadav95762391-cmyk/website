@@ -149,6 +149,32 @@ color:white;
 text-align:center;
 padding:20px;
 }
+ .search-box{
+    display:flex;
+    width:95%;
+    margin:20px auto;
+    background:white;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,0.2);
+}
+
+.search-box input{
+    flex:1;
+    border:none;
+    padding:15px;
+    font-size:18px;
+    outline:none;
+}
+
+.search-box button{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    width:70px;
+    font-size:24px;
+    cursor:pointer;
+} 
 </style>
 </head>
 
@@ -162,7 +188,10 @@ padding:20px;
 Education • Jobs • Scholarships • Results • Updates
 </p>
 </header>
-
+<div class="search-box">
+    <input type="text" placeholder="Search jobs, result etc...">
+    <button>🔍</button>
+</div>
 <nav>
 <a href="index.html">Home</a>
 <a href="latest-jobs.html">Jobs</a>
