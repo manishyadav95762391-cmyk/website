@@ -1,7 +1,8 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FK1G0HZDXG"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
@@ -10,101 +11,220 @@ gtag('js', new Date());
 gtag('config', 'G-FK1G0HZDXG');
 </script>
 
-<meta charset="UTF-8">   
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Manish Education Portal</title><style>
+<title>Manish Education Portal</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
 body{
-    margin:0;
-    font-family:Arial, sans-serif;
-    background:#f4f7fc;
+background:#f4f7fc;
 }
 
 header{
-    background:#0056d6;
-    color:white;
-    text-align:center;
-    padding:20px;
+background:linear-gradient(135deg,#0056d6,#003d99);
+text-align:center;
+padding:20px;
+color:white;
+}
+
+.logo{
+max-width:260px;
+width:100%;
+}
+
+header p{
+margin-top:10px;
+font-size:18px;
 }
 
 nav{
-    background:#003d99;
-    padding:10px;
-    text-align:center;
+background:#002b70;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+padding:10px;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:10px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+padding:10px 15px;
+margin:5px;
+border-radius:6px;
+font-weight:bold;
 }
 
-.section{
-    background:white;
-    margin:15px;
-    padding:15px;
-    border-radius:8px;
+nav a:hover{
+background:#0056d6;
 }
 
-.section h2{
-    background:#0056d6;
-    color:white;
-    padding:10px;
-    margin:-15px -15px 10px -15px;
+.notice{
+background:#fff3cd;
+padding:12px;
+text-align:center;
+font-weight:bold;
+color:#856404;
 }
 
-ul{
-    padding-left:20px;
+.container{
+width:95%;
+max-width:1200px;
+margin:20px auto;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h2{
+color:#0056d6;
+margin-bottom:10px;
+}
+
+.card p{
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+background:#0056d6;
+color:white;
+padding:10px 18px;
+border-radius:6px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#003d99;
+}
+
+.updates{
+background:white;
+padding:20px;
+border-radius:12px;
+margin-top:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.updates h2{
+color:#0056d6;
+margin-bottom:10px;
+}
+
+.updates ul{
+padding-left:20px;
+}
+
+.updates li{
+margin:8px 0;
 }
 
 footer{
-    background:#003d99;
-    color:white;
-    text-align:center;
-    padding:15px;
-    margin-top:20px;
+background:#002b70;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
 }
-</style></head><body><header>
-<img src="logo.png" alt="Manish Education Portal" width="350">
-<p>Education • Jobs • Scholarship • Results</p>
-</header><nav>
+</style>
+
+</head>
+<body>
+
+<header>
+<img src="logo.png" alt="Logo" class="logo">
+<p>Scholarship • Results • Jobs • Admit Card • University Updates</p>
+</header>
+
+<nav>
 <a href="index.html">Home</a>
-<a href="latest-jobs.html">Latest Jobs</a>
+<a href="latest-jobs.html">Jobs</a>
 <a href="admit-card.html">Admit Card</a>
 <a href="results.html">Results</a>
 <a href="scholarship.html">Scholarship</a>
-<a href="updates.html">University Update</a>
-</nav><div class="section">
+<a href="updates.html">Updates</a>
+</nav>
+
+<div class="notice">
+🔥 Bihar Scholarship 2026 • BNMU Admission • New Vacancy Updates Available
+</div>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="card">
+<h2>🎓 Scholarships</h2>
+<p>View Bihar & National Scholarships</p>
+<a href="scholarship.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<h2>📊 Results</h2>
+<p>Check Board & University Results</p>
+<a href="results.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<h2>💼 Latest Jobs</h2>
+<p>Government & Private Jobs</p>
+<a href="latest-jobs.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<h2>📝 Admit Card</h2>
+<p>Download Latest Admit Cards</p>
+<a href="admit-card.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<h2>🏛️ University Updates</h2>
+<p>BNMU & Other University News</p>
+<a href="updates.html" class="btn">Open</a>
+</div>
+
+<div class="card">
+<h2>📢 Latest Notifications</h2>
+<p>Important Education Updates</p>
+<a href="updates.html" class="btn">Open</a>
+</div>
+
+</div>
+
+<div class="updates">
 <h2>Latest Updates</h2>
 <ul>
-<li>Bihar Scholarship 2026 Apply Online</li>
-<li>BNMU UG Admission 2026</li>
-<li>Bihar Board Result Update</li>
-<li>New Government Vacancy Notification</li>
+<li>🎓 Bihar Scholarship 2026 Apply Online</li>
+<li>📚 BNMU UG Admission 2026</li>
+<li>📢 Bihar Board Result Update</li>
+<li>💼 New Government Vacancy Notification</li>
+<li>📝 Admit Card Released</li>
 </ul>
-</div><div class="section">
-<h2>Latest Jobs</h2>
-<ul>
-<li><a href="latest-jobs.html">SSC Vacancy 2026</a></li>
-<li><a href="railway-recruitment-2026.html">Railway Recruitment 2026</a></li>
-<li><a href="latest-jobs.html">Bihar Police Vacancy</a></li>
-<li><a href="latest-jobs.html">Bank Clerk Recruitment</a></li>
-</ul>
+</div>
 
-</div><div class="section">
-<h2>Scholarship</h2>
-<ul>
-<li><a href="scholarship.html">🎓 View All Scholarships (10+)</a></li>
-</ul>
+</div>
 
-</div><div class="section">
-<h2>Results</h2>
-<ul>
-<li><a href="results.html">10th Result</a></li>
-<li><a href="results.html">12th Result</a></li>
-<li><a href="results.html">University Exam Result</a></li>
-</ul>
-</div><footer>
-© 2026 Manish Education Portal
-</footer></body>
+<footer>
+© 2026 Manish Education Portal | All Rights Reserved
+</footer>
+
+</body>
 </html>
