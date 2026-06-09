@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FK1G0HZDXG"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-FK1G0HZDXG');
+</script>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Manish Education Portal</title>
 
 <style>
@@ -15,20 +23,27 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f1f5f9;
+background:#eef2f7;
+}
+
+.topbar{
+background:#003c9e;
+color:white;
+text-align:center;
+padding:8px;
+font-size:14px;
+font-weight:bold;
 }
 
 header{
-background:linear-gradient(135deg,#004aad,#0066ff);
-padding:20px;
+background:linear-gradient(135deg,#0056d6,#0088ff);
+padding:25px;
 text-align:center;
 color:white;
 }
 
-.logo img{
-max-width:320px;
-width:100%;
-border-radius:10px;
+header img{
+max-width:280px;
 }
 
 .tagline{
@@ -37,17 +52,22 @@ font-size:15px;
 }
 
 nav{
-background:#002f7a;
-padding:12px;
-text-align:center;
+background:#002f80;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
 }
 
 nav a{
 color:white;
+padding:14px;
 text-decoration:none;
-margin:8px;
 font-weight:bold;
 font-size:14px;
+}
+
+nav a:hover{
+background:#0056d6;
 }
 
 .breaking{
@@ -55,27 +75,26 @@ background:#ffe08a;
 padding:10px;
 text-align:center;
 font-weight:bold;
-color:#7a4d00;
+color:#8a5200;
 }
 
 .container{
 width:95%;
 max-width:1200px;
 margin:auto;
-padding:15px;
 }
 
 .hero{
 background:white;
-padding:20px;
+margin:15px 0;
+padding:25px;
 border-radius:12px;
-margin-bottom:20px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
 text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,.1);
 }
 
 .hero h1{
-color:#004aad;
+color:#0056d6;
 margin-bottom:10px;
 }
 
@@ -87,189 +106,97 @@ color:#555;
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:15px;
-margin-top:20px;
+margin-bottom:20px;
 }
 
 .card{
 background:white;
 padding:20px;
 border-radius:12px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-transition:.3s;
-}
-
-.card:hover{
-transform:translateY(-5px);
+box-shadow:0 2px 10px rgba(0,0,0,.08);
 }
 
 .card h3{
-color:#004aad;
+color:#0056d6;
 margin-bottom:10px;
 }
 
 .btn{
 display:inline-block;
 margin-top:10px;
-padding:10px 20px;
 background:#0066ff;
 color:white;
-text-decoration:none;
-border-radius:6px;
-}
-
-.section{
-background:white;
-margin-top:20px;
-padding:20px;
-border-radius:12px;
-box-shadow:0 2px 10px rgba(0,0,0,.1);
-}
-
-.section h2{
-color:#004aad;
-margin-bottom:15px;
-}
-
-.news-list li{
-margin:10px 0;
-}news-list a{
-text-decoration:none;
-color:#333;
-font-weight:bold;
-}
-
-.news-list a:hover{
-color:#0066ff;
-}
-
-footer{
-margin-top:20px;
-background:#002f7a;
-color:white;
-text-align:center;
-padding:20px;
-}
-</style>
-</head>
-
+padding:10px 20px;
+border-radius:</head>
 <body>
 
-<header>
-<div class="logo">
-<img src="logo.png" alt="Manish Education Portal">
-</div>
-<p class="tagline">
-Education • Jobs • Scholarships • Results • Updates
-</p>
+<header class="top-header">
+    <div class="logo-box">
+        <iframe src="logo.html" style="border:none;width:100%;height:120px;"></iframe>
+    </div>
+
+    <div class="top-links">
+        Education • Jobs • Scholarships • Results • Updates
+    </div>
 </header>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="latest-jobs.html">Jobs</a>
-<a href="admit-card.html">Admit Card</a>
-<a href="results.html">Results</a>
-<a href="scholarship.html">Scholarship</a>
-<a href="updates.html">Updates</a>
+    <a href="index.html">Home</a>
+    <a href="latest-jobs.html">Jobs</a>
+    <a href="admit-card.html">Admit Card</a>
+    <a href="results.html">Results</a>
+    <a href="scholarship.html">Scholarship</a>
+    <a href="updates.html">Updates</a>
 </nav>
 
-<div class="breaking">
-🔥 Bihar Scholarship 2026 | BNMU Admission | Railway Vacancy | Result Updates
+<div class="breaking-news">
+    🔥 Bihar Scholarship 2026 | BNMU Admission | Railway Vacancy | Result Updates
 </div>
 
 <div class="container">
 
 <div class="hero">
-<h1>Welcome to Manish Education Portal</h1>
-<p>
-Latest Jobs, Scholarships, Results, Admit Cards and University Updates in one place.
-</p>
+    <h1>Manish Education Portal</h1>
+    <p>
+        Bihar Scholarship, Government Jobs, Admit Card,
+        University Updates and Results in one place.
+    </p>
 </div>
 
 <div class="grid">
 
 <div class="card">
-<h3>🎓 Scholarships</h3>
-<p>All Bihar & National Scholarship Links</p>
-<a href="scholarship.html" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h3>📊 Results</h3>
-<p>Board & University Results</p>
-<a href="results.html" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h3>💼 Latest Jobs</h3>
-<p>Government & Private Jobs</p>
-<a href="latest-jobs.html" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h3>🪪 Admit Card</h3>
-<p>Download Latest Admit Cards</p>
-<a href="admit-card.html" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h3>🏛️ University Updates</h3>
-<p>BNMU and Other University News</p>
-<a href="updates.html" class="btn">Open</a>
-</div>
-
-<div class="card">
-<h3>📢 Notifications</h3>
-<p>Important Education Updates</p>
-<a href="updates.html" class="btn">Open</a>
-</div>
-
-</div>
-
-<div class="section">
-<h2>Latest Updates</h2>
-
-<ul class="news-list">
-<li>🎓 Bihar Scholarship 2026 Apply Online</li>
-<li>📚 BNMU UG Admission 2026</li>
-<li>📢 Bihar Board Result Update</li>
-<li>💼 New Government Vacancy Notification</li>
-<li>🪪 Admit Card Released</li>
-<li>🚆 Railway Recruitment 2026</li>
-<li>👮 Bihar Police Vacancy Update</li>
-<li>🏦 Bank Clerk Recruitment</li>
-</ul>
-</div><div class="section">
+    <h3>🎓 Scholarships</h3>
+    <p>All Bihar & National Scholarships</p>
+    <a href="scholar<section class="section">
 <h2>Popular Scholarships</h2>
 
-<ul class="news-list">
+<ul>
 <li><a href="scholarship.html">Mukhyamantri Balak/Balika Protsahan Yojana</a></li>
 <li><a href="scholarship.html">Mukhyamantri Kanya Utthan Yojana</a></li>
 <li><a href="scholarship.html">Post Matric Scholarship Bihar</a></li>
 <li><a href="scholarship.html">National Scholarship Portal (NSP)</a></li>
+<li><a href="scholarship.html">PM Yasasvi Scholarship</a></li>
 <li><a href="scholarship.html">Central Sector Scholarship</a></li>
-<li><a href="scholarship.html">Pre Matric Scholarship</a></li>
-<li><a href="scholarship.html">INSPIRE Scholarship</a></li>
-<li><a href="scholarship.html">E-Kalyan Scholarship</a></li>
-<li><a href="scholarship.html">Labour Welfare Scholarship</a></li>
 <li><a href="scholarship.html">Minority Scholarship</a></li>
+<li><a href="scholarship.html">E-Kalyan Scholarship</a></li>
 </ul>
+</section>
 
-</div>
-
-<div class="section">
+<section class="section">
 <h2>Latest Jobs</h2>
 
-<ul class="news-list">
-<li><a href="latest-jobs.html">SSC Vacancy 2026</a></li>
-<li><a href="railway-recruitment-2026.html">Railway Recruitment 2026</a></li>
+<ul>
+<li><a href="latest-jobs.html">SSC Recruitment 2026</a></li>
+<li><a href="latest-jobs.html">Railway Recruitment 2026</a></li>
 <li><a href="latest-jobs.html">Bihar Police Vacancy</a></li>
 <li><a href="latest-jobs.html">Bank Clerk Recruitment</a></li>
+<li><a href="latest-jobs.html">Teacher Recruitment</a></li>
 <li><a href="latest-jobs.html">Army Rally Recruitment</a></li>
 <li><a href="latest-jobs.html">Air Force Recruitment</a></li>
 <li><a href="latest-jobs.html">Navy Vacancy</a></li>
-<li><a href="latest-jobs.html">Teacher Recruitment</a></li>
 </ul>
+</section>
 
-</div>
-
-<div class="
+<section class="section">
+<h2>Quick
